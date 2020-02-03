@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnAdd"
+        android:icon="@drawable/addicon"
+        android:title="NUEVO"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/filter"
+        android:title="Menu"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/TODOS"
+                android:title="TODOS" />
+
+            <item
+                android:id="@+id/filtroConStock"
+                android:title="CON STOCK" />
+
+            <item
+                android:id="@+id/filtroSinStock"
+                android:title="SIN STOCK" />
+
+        </menu>
+
+    </item>
+
+    <!--<item
+        android:id="@+id/btnAdd"
+        android:title="ADD"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnStock"
+        android:title="Articles amb Stock" />
+
+    <item
+        android:id="@+id/btnNoStock"
+        android:title="Articles sense Stock" />-->
+
+</menu>
